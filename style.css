@@ -2,4 +2,31 @@
 body {
     background-color: rgb(51, 51, 51);
     color: white;
+    font-size: 30px;
+}
+h1, .results, .comp, .score, .results2 {
+    text-align: center;
+    margin: 50px;
+}
+
+button {
+    font-size: 30px;
+}
+.buttons {
+    display: flex;
+    justify-content: space-around;
+}
+
+.char {
+    background-color: red;
+    width: 20%;
+    height: 50px;
+}
+
+.squi {
+    background-color: aqua;
+}
+
+.bulb {
+    background-color: springgreen;
 }
